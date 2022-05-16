@@ -10,6 +10,7 @@ import {
 import { DateRange } from "react-date-range";
 import { useState } from "react";
 import { format } from "date-fns";
+import { Link } from "react-router-dom";
 
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
@@ -191,12 +192,13 @@ const Header = ({ type }) => {
                 )}
               </div>
               <div className="headerSearchItem">
-                <button
+                <Link
+                  to="/hotels"
                   className="headerBtn"
                   //  onClick={handleSearch}
                 >
                   Search
-                </button>
+                </Link>
               </div>
             </div>
           </>
