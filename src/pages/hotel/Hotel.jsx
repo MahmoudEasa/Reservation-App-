@@ -6,7 +6,6 @@ import {
   faCircleArrowLeft,
   faCircleArrowRight,
   faCircleXmark,
-  faL,
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import Footer from "./../../components/footer/Footer";
